@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "PointClicks",
+  "short_name": "MSVXPC",
+  "version": "1.0",
+  "description": "VK Play Live and Twitch point clicker",
+  "icons": {"16": "icon16.png", "48": "icon48.png", "128": "icon128.png"},
+  "permissions": ["activeTab", "scripting"],
+  
+  "content_scripts": [{
+    "matches": ["*://*.live.vkplay.ru/*"],
+    "js": ["vk.js"]}, {
+    
+    "matches": ["*://*.twitch.tv/*"],
+    "js": ["tw.js"]
+  }
+  ]
+}
