@@ -8,7 +8,7 @@
   "permissions": ["activeTab", "scripting"],
   
   "content_scripts": [{
-    "matches": ["*://*.live.vkplay.ru/*"],
+    "matches": ["*://*.live.vkvideo.ru/*"],
     "js": ["vk.js"]}, {
     
     "matches": ["*://*.twitch.tv/*"],
