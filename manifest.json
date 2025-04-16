@@ -12,7 +12,7 @@
     "js": ["vk.js"]}, {
     
     "matches": ["*://*.twitch.tv/*"],
-    "js": ["tw.js"]/* }, {
+    "js": ["tw.js"] /* }, {
     
     "matches": ["*://*.kick.com/*"],
     "js": ["kick.js"] */
