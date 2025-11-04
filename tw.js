@@ -1,6 +1,7 @@
-setInterval(() => {
-    const icon = document.querySelector('.claimable-bonus__icon');
+const CHECK_INTERVAL_MS = 30000;
+const claimBonusInterval = setInterval(() => {
+    const icon = document.querySelector('.claimable-bonus__icon'); 
     if (icon) {
-      icon.click();
+        icon.click();
     }
-  }, 30000);
+}, CHECK_INTERVAL_MS);
