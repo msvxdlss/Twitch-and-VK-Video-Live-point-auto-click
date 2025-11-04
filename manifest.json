@@ -5,7 +5,7 @@
   "version": "2.0",
   "description": "VK Play Live and Twitch point clicker (kick is possible)",
   "icons": {"16": "/icon/icon16.png", "48": "/icon/icon48.png", "128": "/icon/icon128.png"},
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["scripting"],
   
   "content_scripts": [{
     "matches": ["*://*.live.vkvideo.ru/*"],
@@ -20,3 +20,4 @@
   }
   ]
 }
+
